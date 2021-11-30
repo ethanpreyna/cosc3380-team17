@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sample Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    body { padding: 50px; }
+  </style>
+</head>
+<body>
+
+    <section id="control-center">
+      <select name="table" id="table">
+        <option value="flight">Flight</option>
+        <option value="passengers">Passenger</option>
+        <option value="crew">Crew</option>
+        <option value="maintenance">Maintenance</option>
+        <option value="services">Services</option>
+        <option value="crew_baggage">Crew Baggage</option>
+        <option value="passenger_baggage">Passenger Baggage</option>
+      </select>
+      <input type="text" id="input_id" placeholder="flight_id">
+      <button id="get-btn">GET DATA</button>
+    </section>
+
+    <table class="table mt-5 text-center" id="demo-list">
+      <thead id="table-head">
+      </thead>
+      <!-- add todos in tbody by modying the HTML in main.js -->
+      <tbody id="table-body">
+      </tbody>
+    </table>
+      
+</body>
+</html>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>

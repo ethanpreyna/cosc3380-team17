@@ -1,0 +1,25 @@
+Airplane
+
+A339	Airbus A330-900
+A342	Airbus A340-200
+A343	Airbus A340-300
+B720	Boeing 720B
+B721	Boeing 727-100
+B722	Boeing 727-200
+EA50	Eclipse 500
+
+
+-- maintenance
+
+fuel_status:
+- fueled
+- unfueled
+
+clean_status:
+- cleaned
+- not cleaned
+
+maintenance_status:
+- complete
+- incomplete
+

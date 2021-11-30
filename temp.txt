@@ -1,0 +1,7 @@
+<form action="/get">
+    <label for="flight_id">Flight_Id:</label>
+    <input type="text" id="flight_id" name="flight_id"><br><br>
+    <label for="table">Table:</label>
+    <input type="text" id="table" name="table"><br><br>
+    <input type="submit" value="Submit">
+</form>
